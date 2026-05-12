@@ -1,0 +1,165 @@
+/* Header styling */
+header {
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Navigation bar */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.nav a:hover {
+    background-color: lightblue;
+    color: navy;
+}
+
+/* Main content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Footer container */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer sections - 4 sections side by side */
+.footer-section {
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Make all paragraphs and links inside footer sections look the same */
+.footer-section p,
+.footer-section a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #ddd;
+    line-height: 1.4;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+/* Fix icon width so text aligns vertically */
+.footer-section i {
+    display: inline-block;
+    width: 25px;          /* Fixed width for all icons */
+    text-align: center;
+    margin-right: 8px;
+}
+
+/* Special fix for TikTok icon (sometimes different spacing) */
+.fa-tiktok {
+    width: 25px;
+}
+
+/* Footer form styling */
+.footer-form label {
+    display: block;
+    text-align: left;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.footer-form input[type=text],
+.footer-form input[type=email],
+.footer-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.footer-form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Gender group - radio buttons and labels on same line */
+.gender-group {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.gender-group input {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.gender-group label {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    font-size: 12px;
+}
+
+/* Google Map iframe */
+iframe {
+    border: 0;
+    width: 100%;
+    height: 150px;
+}
